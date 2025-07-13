@@ -4,4 +4,6 @@ title: "allorimd.github.io"
 
 This is a Quarto website.
 
+Take 2!
+
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
