@@ -1,0 +1,225 @@
+# .gitignore file created for free with Tower (https://www.git-tower.com/)
+# For suggestions or improvements please contact us using support@git-tower.com
+# Generated on 2025-07-12
+# Includes: html, git, github_actions, pycharm, python, javascript, jupyter, macos, pip, pipenv
+
+### PROJECT-SPECIFIC
+/.quarto/
+
+
+### OTHER FILES
+
+# Environment files (containing secrets, API keys, credentials)
+.env
+*.env
+.env.*
+.envrc
+
+# Local configuration that shouldn't be shared
+*.local
+
+### Macos ###
+# macOS operating system specific files
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+
+Temporary Items
+.apdisk
+*.icloud
+.AppleDB/
+.AppleDesktop/
+
+*.AppleDouble
+*.AppleDB
+.Spotlight-V100/
+.Trashes/
+*.swp
+
+Network Trash Folder/
+.DS_Store?
+.Spotlight-V100
+.Trashes
+
+
+
+# Git version control system files and directories
+.git/
+.gitattributes
+.gitmodules
+.git-rewrite/
+/.git-credentials
+.git-blame-ignore-revs
+*.git
+.gitkeep
+.git-old/
+.gitconfig
+.github/
+.gitreview
+.gitk
+.gitstats
+.gitchangelog.rc
+.git-blame*
+.git-rewrite/
+.gitmessage
+.gitflow
+git.properties
+.git-blame-ignore
+.gitkeep
+.gitattributes.local
+.git/lfs/
+.git-crypt/
+.gitflow.default
+.gitlint
+.gitversion
+.gitsecret/
+.git/hooks/
+.git-credentials.local
+
+# GitHub Actions Workflows
+.github/workflows/
+.github/actions/
+.github/workflows/*.yml
+.github/workflows/*.yaml
+
+# GitHub Actions Configuration
+.github/action.yml
+.github/action.yaml
+.github/dependabot.yml
+.github/dependabot.yaml
+
+# GitHub Actions Environment
+.github/env/
+.env.ci
+.env.github-actions
+# GitHub Actions Secrets
+
+.github/secrets/
+*.gpg
+*.asc
+# GitHub Actions Cache
+.actions-cache/
+
+.github-cache/
+# GitHub Actions Artifacts
+artifacts/
+dist/
+build/
+
+# GitHub Actions Logs
+*.log
+action-logs/
+runner-logs/
+# GitHub Actions Local Testing
+
+act.env
+.actrc
+act-secrets.env
+# GitHub Actions Scripts
+scripts/
+
+action-scripts/
+*.sh
+*.ps1
+# GitHub Actions Runtime
+.runner
+
+.tool-versions
+.github/runners/
+
+### Pycharm ###
+# pycharm editor specific files
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+.idea_modules/
+out/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/datasources.xml
+
+.idea/dataSources.ids
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/inspectionProfiles/
+
+### Python ###
+# Python compiled files, virtual environments, and cache
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+pypackages/
+build/
+develop-eggs/
+dist/
+downloads/
+
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+
+.installed.cfg
+*.egg
+MANIFEST
+.venv
+env/
+
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+### Javascript ###
+# javascript specific files
+
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+.cache/
+
+dist/
+coverage/
+
+
+
